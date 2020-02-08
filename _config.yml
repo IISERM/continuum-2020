@@ -1,2 +1,5 @@
 theme: jekyll-theme-slate
 title: Continuum 2020
+description: The Official Page of Continuum 2020
+github:
+  is_project_page: false
