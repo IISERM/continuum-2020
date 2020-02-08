@@ -7,7 +7,8 @@ ignored = [
     "build.py",
     ".git",
     "compile",
-    "makenew"]
+    "makenew",
+    ".pdf"]
 
 
 def list_files(startpath):
@@ -49,11 +50,15 @@ def list_files(startpath):
                     for f in files:
                         if(all(filepart not in f for filepart in ignored)):
                             file.write(subindent + "- ")
-                            file.write("[_" + os.path.basename(f) + "_]")
+                            filename = os.path.splitext(os.path.basename(f))[0]
+                            print(filename)
+                            file.write("[_" + filename + "_]")
                             path_str = os.path.relpath(
-                                os.path.join(root, f), startpath)
+                                os.path.join(root, f), startpath)\
+                                .replace(" ", "%20")\
+                                .replace(".md", "")
                             file.write(
-                                "(" + path_str.replace(" ", "%20") + ")")
+                                "(" + path_str + ")")
                             file.write("\n")
                 else:
                     pass
