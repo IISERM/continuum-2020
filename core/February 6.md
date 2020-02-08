@@ -17,24 +17,24 @@
     - Anshu
     - Ved
 
-## Events
+# Events
 
-### Pre-events
+## Pre-events
 - Logo designing
 - Hoodie designing
 
-### Week Events
+## Week Events
 - Theorem Proving
 - CTF
 - Cipher breaking
 - Game of life
 
-### Continuum events
+## Continuum events
 - Integrate
     - Talk to previous ppl
     - One event for coding and stuff
 
-### Talks
+## Talks
 Themed days
 - NGP
 - Somdatta Sinha
