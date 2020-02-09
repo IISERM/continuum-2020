@@ -32,7 +32,7 @@
 ## Continuum events
 - Integrate
     - Talk to previous ppl
-    - One event for coding and stuff
+- One event for coding and stuff
 
 ## Talks
 Themed days
