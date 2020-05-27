@@ -1,4 +1,6 @@
 # Continuum 2020
+
+## CONTINUUM 2020 IS DELAYED INDEFINITELY DUE TO THE COVID-19 PANDEMIC. WE WILL UPDATE YOU ON FUTURE PLANS
 ## Page Under Construction
 
 [Link for Core members](core)
